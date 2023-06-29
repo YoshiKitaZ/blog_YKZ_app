@@ -11,11 +11,11 @@
     <main>
       <div class="article">
         
-        <% if (article?.category === 'all') { %>
+        <% if (article.category === 'all') { %>
           <h1><%= article.title %></h1>
           <p><%= article.content %></p>
         <% } %>
-        <% if (article?.category === 'limited') { %>
+        <% if (article.category === 'limited') { %>
           <i>会員限定</i>
           <h1><%= article.title %></h1>
           <% if (locals.isLoggedIn) { %>

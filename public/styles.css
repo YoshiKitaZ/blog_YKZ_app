@@ -353,11 +353,11 @@ input[type="submit"]:hover {
 }
 
 header {
-  background-color: #88E7CE;
+  background-color: gray;
 }
 
 header.admin {
-  background-color: #A0C3F7;
+  background-color: gray;
 }
 
 header.admin > p:after {
@@ -549,7 +549,7 @@ main {
 }
 
 .sign {
-  border-top: 20px solid #88E7CE;
+  border-top: 20px solid gray ;
   display: flex;
   align-items: center;
   justify-content: center;
