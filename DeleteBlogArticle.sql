@@ -1,0 +1,1 @@
+DELETE FROM articles WHERE id in (1, 3, 4);
